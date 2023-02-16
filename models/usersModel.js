@@ -15,6 +15,11 @@ const users = mongoose.Schema({
         required:true,
         unique:true,
     },
+    phone:{
+        type:String,
+        required:true,
+        unique:true,
+    },
     subscription:{
         type:Number,
     },
