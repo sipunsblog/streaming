@@ -143,6 +143,7 @@ async function createUser(req,res){
             })
                 
         }catch(error){
+            
             console.log(error);
             res.send({status:200,message:error});
         }
